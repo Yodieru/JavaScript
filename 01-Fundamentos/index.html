@@ -4,37 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fundamentos de programacion</title>
-  <!-- 
-     Segunda forma de escribir codigo de Javascript
-     Dentro de las etiquetas <head></head> colocamos las etiquetas de <script></script>
-     Esta forma tiene el inconveniente que si el codigo interactua  con algun elemento html, marcara error por que el documento aun no ha sido colocado.
-     Se utiliza el atributo ´defer´ en la etiqueta script, para que espere a cargar todo el HTML antes de ejecutar el codigo.
-  -->
-  <script defer>
-    console.log ("Este mesaje es desde el head")
-  </script>
-
-  <!-- 
-    Tercera forma de escribir codigo Jvascript
-    Dentro de las etiquetas <head></head> usamos las etiquetas <script></script> con el atibuto src ´source´.
-    Esto quiere decir que podemos enlazar un archivo externo para ser leido en html
-  -->
-  <script defer src="./holamundo.js"></script>
+  <!-- Llamamos al archivo externo de Javascript -->
+  <script defer src="./variables.js"></script>
 </head>
 <body>
   <h1>Fundamentos de Programación</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aspernatur, minus at fugit eius praesentium quia mollitia natus! Pariatur, labore modi autem quia corrupti laudantium numquam quas molestiae quod velit!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aspernatur, minus at fugit eius praesentium quia mollitia natus! Pariatur, labore modi autem quia corrupti laudantium numquam quas molestiae quod velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas hic similique temporibus. Alias animi incidunt totam error harum repellendus cumque minus! Doloribus earum dolores ea necessitatibus sunt, ipsum exercitationem?</p>
 
-  <!-- 
-     Primera forma de escribir codigo Javascript
-     Dentro de la etiqueta <script> ...codigo... </script>
-     Escribimos el codigo de JS
-
-     Esta etiqueta es definida antes de la etiqueta cierre del </body>
-     Esto es para que el codigo interactue con algun elemento del html, este ya este creado antes de ejecutar las instrucciones
-  -->
-  <script>
-    console.log("Mensaje desde etiqueta script antes del cierre del body")
-  </script>
 </body>
 </html>
