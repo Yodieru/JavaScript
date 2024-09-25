@@ -52,3 +52,91 @@ console.log(expo2);
 let y = 6;
 y++;
 console.log(y);
+
+
+/* 2. Operadores de asignacion
+
+  Estos operadores asignan valores a las variables
+
+*/
+
+// Asignacion (=) Asigna un valor a la variable
+
+let w = 45;
+
+// Asignacion con suma (+=): Summa el valot a una variable y la reasigna
+
+w + 5; //50
+console.log(w)
+
+//asignacion con resta (-=): Resta el valor a una variable y la reasigna
+
+w -= 15; //35
+console.log(w)
+
+// Asignacion con multimp´licacion (*=): Multiplica la vatiable por un valor y la rasigna
+
+w *= 2; //70
+console.log(w)
+
+// Asignacion con division (/=): divide una variable por un valor y la reasigna
+
+w /= 10; // 7
+console.log(w)
+
+/* 
+  3. Comparacion
+
+  Estos operadores comparan dos valores y devuelven 'true' o 'false'.
+
+*/
+
+//Igualdad (==): Compara dos valores para ver si son iguales. NOTA: Sin tener rn cuenta el tipo de dato.
+
+let valor = "5";
+let compara = 5 == valor;
+console.log(compara) // true
+
+// Igualdad estricta (===): Comparara dos valores y su tipo, para ver si son exactamente iguales.
+
+compara = 5 === valor ;
+console.log(compara) // false
+
+// Desigauldad  (!=): Verificar si dos valores no son iguales
+
+let valor1 = "10";
+let valor2 = 10;
+
+console.log(valor1 != valor2)
+
+//Desigauldad estricta (!==): Verifica si dos valores y sus tipos no son exactamente iguales
+
+valor1 = "10";
+valor2 = 10;
+
+console.log(valor1 !== valor2) // true
+
+// Mayor que (>): verifica si el primer valor es mayor que el segundo.
+
+compara = 5 > 10;
+
+console.log(compara) //true
+
+// Mayor o igaul que (>=): Varificar si el primer valor es mayor o igual que el segundo
+
+compara = 10 >= 5;
+
+console.log(compara) // true
+
+// Menor que (<): Verifica si el primer valor es menor que el segundo
+
+console.log(3 < 8); // true
+console.log(10 < 8); // false
+console.log("5" < 5); // false
+
+//Menor o igaul que (<=): Verifica si el primer valor es menor o igual que el segundo valor
+
+console.log(4 <= 10); //true
+console.log(20 <= 100); //true
+console.log(45 <= 7); //false
+console.log(8 <= 8); //true
