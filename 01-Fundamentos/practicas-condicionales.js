@@ -11,13 +11,12 @@
   6. Si esta condicion es "true", mostrar por consola el mensaje: "Eres menor de edad"
   7. Con el bloque "else", evaluar cualquier otro dato y en caso de las condicionales anteriores sean falsas "false", mostrar por consola el mensaje: "Eres un alien 👽"
   8. Dentro de los bloques de if, else if, cmbiar los "console.log" por "alert"
-  9. Cambiar el valor de la variable "edad" por un "promt". Para que este dato sea introducido por el usuario y evaluando por las condicionales
+  9. Cambiar el valor de la variable "edad" por un "prompt". Para que este dato sea introducido por el usuario y evaluando por las condicionales
 
-  promt ("¿Que edad tienes?")
+  prompt ("¿Que edad tienes?")
 */
 
-let edad = promt ("¿Que edad tienes?");
-console.log (edad >= 18);
+let edad = prompt ("¿Que edad tienes?");
 
 if (edad >= 18) {/* console.log */ alert ("Eres mayor de edad!")} 
 else if (edad < 18) {/* console.log */ alert("Eres menor de edad")} else {/* console.log */ alert ("Eres un alien 👽")}
