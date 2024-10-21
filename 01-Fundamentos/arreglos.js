@@ -107,5 +107,104 @@ console.log(numerosSuerte);
 let numeroQuitado = numerosSuerte.pop()
 
 console.log(numerosSuerte);
+console.log(numeroQuitado);
 
-console.log(numeroQuitado)
+/* 
+
+  Unshift()
+
+  Agrega un elemento al inicio del array
+
+  nombreArray.unshift(elemento)
+
+*/
+
+console.log(frutasFavoritas);
+
+frutasFavoritas.unshift("moras");
+
+console.log(frutasFavoritas);
+
+/* 
+
+  shift() - Elimina el primer elemento del array y lo devuelve
+
+  nombreArray.shift()
+
+*/
+
+console.log(numerosSuerte);
+
+let quitarPrimero = numerosSuerte.shift();
+
+console.log(numerosSuerte);
+console.log(quitarPrimero);
+
+/* 
+
+  indexOf() - Encuentra el indice de un elemento en el array.
+
+  nombreArray.indexOf(dato);
+
+*/
+
+let indice = frutasFavoritas.indexOf("Uvas");
+
+console.log(indice);
+
+/* 
+
+  splice() - Eliminar o agregar elementos al array desde una posicion especifica.
+
+  Eliminar
+
+  nombreArray.splice(indiceInicio, indicerFinal)
+
+  Agregar
+
+  nombreArray.splice(indiceInicio, pasos, valores1, valores2)
+
+*/
+
+console.log(frutasFavoritas);
+
+frutasFavoritas.splice(1,2);
+
+console.log(frutasFavoritas);
+
+frutasFavoritas.splice(1,0, "fresa", "banana");
+
+console.log(frutasFavoritas);
+
+/* 
+
+  slice() - Crear una copia de una porcion del Array. No modifica el original, se crea un nuevo Array.
+
+  nombreArray,slice(indiceInicio,indiceFinal );
+
+*/
+
+let frutasCopia = frutasFavoritas.slice(3,5);
+
+console.log(frutasCopia);
+
+/* 
+
+  sort() - Ordena los elementos de un array de mayor menor
+
+  nombreArray.sort() - De primera no pasamos datos entre parentesis
+
+*/
+
+console.log(frutasFavoritas);
+
+frutasFavoritas.sort();
+
+console.log(frutasFavoritas);
+
+
+console.log(numerosSuerte);
+
+numerosSuerte.sort();
+
+console.log(numerosSuerte);
