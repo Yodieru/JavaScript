@@ -27,7 +27,7 @@
 */
 
 function saludo() {
-   console.log("Hola naris de bola 🤣")
+   console.log("Hola nariz de bola 🤣")
 }
 
 /* Saludo(); */
