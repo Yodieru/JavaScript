@@ -96,10 +96,10 @@ while (veces > 2 ) {
 
 */
 
-let numero = 0;
+let numero = 20;
 do {
   // Codigo que se ejecuta al menos una vez
   console.log("El numero es: " + numero);
 
-  numero++;
+  numero--;
 } while (numero < 10);
